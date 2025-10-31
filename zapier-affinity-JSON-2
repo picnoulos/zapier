@@ -4,7 +4,7 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "name": { "type": "text" },
+    "name": { "type": "string" },
   },
   "required": ["name"]
 }
