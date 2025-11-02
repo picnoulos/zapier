@@ -6,7 +6,19 @@
   "properties": {
     "raise": { "type": "number" },
     "valuation": { "type": "number" },
-    "revenue": { "type": "number" }
+    "revenue": { "type": "number" },
+    "team": { "type": "number" },
+    "momentum": { "type": "number" },
+    "total_funding_amount": { "type": "number" },
+    "last_funding_round": { "type": "number" }
   },
-  "required": ["raise", "valuation", "revenue"]
+  "required": [
+    "raise",
+    "valuation",
+    "revenue",
+    "team",
+    "momentum",
+    "total_funding_amount",
+    "last_funding_round"
+  ]
 }
