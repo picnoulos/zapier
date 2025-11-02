@@ -4,14 +4,14 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "raise": { "type": "number" },
-    "valuation": { "type": "number" },
-    "revenue": { "type": "number" },
-    "team": { "type": "number" },
-    "momentum": { "type": "number" },
-    "total_funding_amount": { "type": "number" },
-    "last_funding_round": { "type": "number" },
-    "meeting_type": { "type": "string" }
+    "raise": { "type": ["number", "null"] },
+    "valuation": { "type": ["number", "null"] },
+    "revenue": { "type": ["number", "null"] },
+    "team": { "type": ["number", "null"] },
+    "momentum": { "type": ["number", "null"] },
+    "total_funding_amount": { "type": ["number", "null"] },
+    "last_funding_round": { "type": ["number", "null"] },
+    "meeting_type": { "type": ["string", "null"] }
   },
   "required": [
     "raise",
