@@ -10,7 +10,8 @@
     "team": { "type": "number" },
     "momentum": { "type": "number" },
     "total_funding_amount": { "type": "number" },
-    "last_funding_round": { "type": "number" }
+    "last_funding_round": { "type": "number" },
+    "meeting_type": { "type": "string" }
   },
   "required": [
     "raise",
@@ -19,6 +20,7 @@
     "team",
     "momentum",
     "total_funding_amount",
-    "last_funding_round"
+    "last_funding_round",
+    "meeting_type"
   ]
 }
