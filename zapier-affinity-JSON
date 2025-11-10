@@ -4,6 +4,7 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
+    "org_name": { "type": ["string", "null"] },
     "raise": { "type": ["number", "null"] },
     "valuation": { "type": ["number", "null"] },
     "revenue": { "type": ["number", "null"] },
@@ -14,6 +15,7 @@
     "meeting_type": { "type": ["string", "null"] }
   },
   "required": [
+    "org_name",
     "raise",
     "valuation",
     "revenue",
